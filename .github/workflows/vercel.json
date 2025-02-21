@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["sfo1"],
+  "env": {
+    "ANTHROPIC_API_KEY": "@anthropic_api_key",
+    "OPENAI_API_KEY": "@openai_api_key"
+  }
+} 
